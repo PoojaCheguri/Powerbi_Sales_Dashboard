@@ -1,43 +1,84 @@
-### Power BI Sales Dashboard 📊
+# Power BI Sales Dashboard 📊
 
-#### 📌 Overview
+## 📌 Overview
 This project is an interactive **Sales Performance Dashboard** built using **Power BI**.  
-It helps analyze sales data to understand **revenue, profit, quantity sold, and customer behavior**
-across **time, region, and products**.  
-The dashboard supports **business decision-making** by providing clear KPIs and visual insights.
+It helps analyze sales data to understand revenue, profit, quantity sold, and customer behavior across time, region, and products.
+
+The dashboard is designed to support **business decision-making** by providing clear KPIs and visual insights.
 
 ---
 
-#### 📊 Key Metrics
-- Total Sales
-- Total Profit
-- Total Quantity
-- Total Customers
+## 🎯 Objectives
+- Track overall sales performance
+- Identify top-performing products and customers
+- Analyze profit trends
+- Understand sales trends over time
+- Enable interactive filtering for deeper analysis
 
 ---
 
-#### ✨ Features
+## 📊 Key KPIs
+- **Total Sales**
+- **Total Profit**
+- **Total Quantity Sold**
+- **Total Customers**
+
+---
+
+## 🚀 Dashboard Features
 - KPI Cards for quick insights
-- Sales trend analysis over time
-- Profit analysis by product
-- Sales distribution by customer
-- Interactive slicers (Year, Month, Region, Product)
+- Sales Trend Over Time (Monthly)
+- Sales by Customer
+- Profit by Product
+- Interactive slicers:
+  - Year
+  - Month
+  - Region
+  - Product
+- Clean and user-friendly layout
 
 ---
 
-#### 🛠 Tools & Technologies
-- Power BI Desktop
-- DAX
-- Data Modeling
+## 🛠 Tools & Technologies Used
+- **Power BI Desktop**
+- **DAX (Data Analysis Expressions)**
+- **Data Modeling**
+- **MySQL (Data Source)**
+- **GitHub** (Project hosting)
 
 ---
 
-#### 🖼 Dashboard Preview
+## 🗂 Dataset Description
+The dataset includes:
+- Order Date
+- Customer details
+- Product details
+- Region and city
+- Quantity sold
+- Sales amount
+- Profit
+
+The data is modeled using fact and dimension tables with proper relationships and a Date table for time analysis.
+
+---
+
+## 📸 Dashboard Preview
 ![Dashboard Overview](dashboard_overview.png)
 
 ---
 
-#### ▶️ How to Use
-1. Download the `sales_dashboard.pbix` file
+## ▶️ How to Use This Project
+1. Download the file **`sales_dashboard.pbix`**
 2. Open it using **Power BI Desktop**
-3. Use slicers to explore sales insights
+3. Use slicers (Year, Month, Region, Product) to interact with the data
+4. Explore KPIs and visuals to gain insights
+
+---
+
+## 💡 Key Learnings
+- Created explicit DAX measures instead of implicit calculations
+- Built a proper Date table for time-based analysis
+- Implemented slicers for interactive dashboards
+- Applied best practices in Power BI data modeling and visualization
+- Published project to GitHub as a portfolio project.
+
